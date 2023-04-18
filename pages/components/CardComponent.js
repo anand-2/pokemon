@@ -2,14 +2,16 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Button, CardActionArea } from '@mui/material';
+import { CardActionArea } from '@mui/material';
 import styles from "../../styles/Home.module.css"
 
 function Cards(props)
 {
-   
+
+    if(!props.pokemon) return <div>Loading...</div>
     
-    return(<>
+    return(
+      <div>
           <div className={styles.body}>
             <a className={styles.link} target='_self' href={"/pokedex/" + props.pokemon.name}>
           <Card  sx={{ maxWidth: 345 }}>
@@ -36,9 +38,7 @@ function Cards(props)
         </Card></a>
             
    </div>   
-
-         
-    </>
+   </div>
     );
 }
 

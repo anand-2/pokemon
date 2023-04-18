@@ -1,6 +1,6 @@
 import React from "react";
 import { useQuery } from "@apollo/react-hooks";
-import {GET_POKEMONS}  from "./graphql/fetchPokemon";
+import {GET_POKEMONS}  from "../graphql/fetchPokemon";
 import CardComponent from "./components/CardComponent"
 import styles from "../styles/Home.module.css"
 import { Button } from "@mui/material";

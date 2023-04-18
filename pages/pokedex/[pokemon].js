@@ -8,7 +8,7 @@ import { Button, CardActionArea } from '@mui/material';
 import { Row,Col, Label } from "react-bootstrap";
 import React from "react";
 import { useQuery } from "@apollo/react-hooks";
-import {GET_PROPERTIES}  from "../graphql/fetchPokemon";
+import {GET_PROPERTIES}  from "../../graphql/fetchPokemon";
 import css from "../../styles/Home.module.css"
 
 
