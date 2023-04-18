@@ -1,6 +1,6 @@
 
-function PokedexDefault{
-    return( <div>This site is Under MAintance</div>)
+function PokedexDefault(){
+    return( <div>This site is Under Maintenance</div>)
 }
 
 export default PokedexDefault
