@@ -1,0 +1,12 @@
+#card{
+    margin-left : 15rem;
+    margin-top: 2rem;
+    height : 40rem
+}
+
+.properties{
+    width: 6rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+    display: flex;
+}

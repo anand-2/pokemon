@@ -1,0 +1,27 @@
+{
+  "name": "buyceps",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.10",
+    "@apollo/react-hooks": "^4.0.0",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.12.0",
+    "apollo-boost": "^0.4.9",
+    "bootstrap": "^5.2.3",
+    "graphql": "^15.8.0",
+    "graphql-tag": "^2.12.6",
+    "next": "13.3.0",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "18.2.0",
+    "react-hooks-use-modal": "^3.3.1"
+  }
+}
